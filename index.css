@@ -1,0 +1,198 @@
+:root {
+    --accent-color: #6c63ff;
+}
+
+body {
+    scroll-behavior: smooth;
+}
+
+section [class^="container"] {
+    padding: 4rem 2rem;
+}
+
+@media screen and (min-width:1024px) {
+    section [class^="container"] {
+        padding: 4rem;
+    }
+
+    nav [class^="container"] {
+        padding: 0 4rem;
+    }
+}
+
+section:not(:first-of-type) {
+    text-align: center;
+}
+
+section:nth-child(2n) {
+    background-color: #ecf2ff;
+}
+
+a {
+    color: #000000;
+    text-decoration: none;
+}
+
+a:hover {
+    color: var(--accent-color);
+}
+
+/* NAVBAR */
+.navbar {
+    background-color: #ffffff;
+}
+
+.navbar-nav .nav-link {
+    color: black;
+    font-size: 1.1rem;
+    transition: all 0.5s;
+}
+
+.navbar-nav .nav-link:hover {
+    color: var(--accent-color);
+}
+
+@media screen and (min-width:1024px) {
+    .navbar-nav .nav-item {
+        padding: 0 1rem;
+    }
+
+    .navbar-brand {
+        font-size: 1.5rem;
+    }
+}
+
+/* HERO */
+section.hero {
+    padding-top: 72px;
+}
+
+@media screen and (min-width:576px) {
+    section.hero {
+        text-align: left;
+    }
+
+    section.hero img {
+        width: 100%;
+    }
+}
+
+/* JASA */
+.jasa .card {
+    padding-top: 2rem;
+}
+
+.jasa .card i {
+    font-size: 5rem;
+    margin-bottom: 1rem;
+    transition: transform 0.3s ease;
+}
+
+.jasa .card:hover i {
+    transform: scale(1.1);
+}
+
+.icon-python {
+    color: #3776AB;
+}
+
+.icon-js {
+    color: #F7DF1E;
+    -webkit-text-stroke: 1.5px #000;
+}
+
+.icon-spring {
+    color: #6DB33F;
+}
+
+.icon-laravel {
+    color: #FF2D20;
+}
+
+/* TOMBOL DAN CARD */
+.btn-outline-dark {
+    border: 2px solid #000000;
+    box-shadow: 4px 4px #000000;
+    transition: all 0.4s ease;
+}
+
+.btn-outline-dark:hover {
+    box-shadow: 4px 4px var(--accent-color);
+}
+
+section.jasa .card,
+section.projek .card {
+    border: 2px solid #000000;
+    box-shadow: 4px 4px #000000;
+    transition: all 0.4s ease;
+    max-width: 22rem;
+    margin-inline: auto;
+}
+
+section.jasa .card:hover,
+section.projek .card:hover {
+    transform: translateY(-5px);
+    box-shadow: 6px 6px var(--accent-color);
+}
+
+/* TENTANG */
+@media screen and (min-width:1024px) {
+    section.tentang .container,
+    section.testimoni .container {
+        width: 60%;
+    }
+}
+
+/* PROJEK */
+section.projek .card {
+    max-width: 17rem;
+    text-align: left;
+}
+
+section.projek .card img {
+    aspect-ratio: 16/9;
+    object-fit: cover;
+    margin: 0;
+}
+
+/* TESTIMONI */
+section.testimoni .carousel-control-prev,
+.carousel-control-next {
+    width: 5%;
+}
+
+section.testimoni .carousel-item p {
+    max-width: 80%;
+    border-left: 5px solid var(--accent-color);
+    padding-left: 1rem;
+}
+
+section.testimoni .carousel-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+section.testimoni .carousel.carousel-fade .carousel-item {
+    transition: opacity 0.5s;
+}
+
+/* KIRIM PESAN & KONTAK */
+section.kirim-pesan,
+section.kontak {
+    text-align: left;
+}
+
+section.kontak h2 {
+    text-align: center;
+}
+
+section.kontak .row {
+    text-align: center;
+}
+
+section.kontak .social-media a {
+    padding: 0 0.5rem;
+    font-size: 1.3rem;
+}

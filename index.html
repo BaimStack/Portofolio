@@ -1,0 +1,257 @@
+<!doctype html>
+<html lang="id">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Baim Company</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="index.css">
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg fixed-top shadow-sm">
+        <div class="container-lg">
+            <a class="navbar-brand fw-bold" href="#">Baim</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav mx-auto">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#hero">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#jasa">Jasa</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#tentang">Tentang Saya</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#projek">Projek</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#testimoni">Testimoni</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link d-lg-none" href="#kontak">Kontak</a>
+                    </li>
+                </ul>
+                <a class="btn btn-outline-dark d-none d-lg-block" href="#kirim-pesan">Mari Berkenalan</a>
+            </div>
+        </div>
+    </nav>
+
+    <section class="hero" id="hero">
+        <div class="container-lg">
+            <div class="row align-items-center">
+                <div class="col-sm-6">
+                    <h1 class="display-2 fw-bold">Baim</h1>
+                    <p>Mewujudkan ide Anda menjadi solusi digital yang fungsional dan modern. Saya adalah seorang developer yang berfokus pada pengembangan web dengan teknologi terkini untuk membantu bisnis Anda bertumbuh.
+                    </p>
+                    <a href="#projek" class="btn btn-outline-dark btn-lg">Lihat Projek Saya</a>
+                </div>
+                <div class="col-sm-6 text-center">
+                    <img src="hero-section.svg" class="img-fluid" alt="Hero Image">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="jasa" id="jasa">
+        <div class="container">
+            <h2 class="display-5 fw-bold mb-3">Jasa Saya</h2>
+            <div class="row">
+                <div class="col-lg col-md-6 mt-4">
+                    <div class="card h-100">
+                        <i class="fa-brands fa-python icon-python"></i>
+                        <div class="card-body">
+                            <h5 class="card-title fw-bold">Python</h5>
+                            <p class="card-text">Pengembangan backend, automasi, scraping, dan analisis data dengan framework seperti Django & Flask.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg col-md-6 mt-4">
+                    <div class="card h-100">
+                        <i class="fa-brands fa-js icon-js"></i>
+                        <div class="card-body">
+                            <h5 class="card-title fw-bold">JavaScript</h5>
+                            <p class="card-text">Solusi frontend interaktif (React, Vue) dan backend modern (Node.js, Express.js) untuk aplikasi web Anda.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg col-md-6 mt-4">
+                    <div class="card h-100">
+                        <i class="fa-solid fa-leaf icon-spring"></i>
+                        <div class="card-body">
+                            <h5 class="card-title fw-bold">Spring Boot</h5>
+                            <p class="card-text">Membangun aplikasi berbasis Java yang tangguh, aman, dan scalable untuk skala enterprise.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg col-md-6 mt-4">
+                    <div class="card h-100">
+                        <i class="fa-brands fa-laravel icon-laravel"></i>
+                        <div class="card-body">
+                            <h5 class="card-title fw-bold">Laravel</h5>
+                            <p class="card-text">Framework PHP elegan untuk pengembangan aplikasi web modern yang cepat, aman, dan powerful.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="tentang" id="tentang">
+        <div class="container">
+            <h2 class="display-5 fw-bold mb-3">Tentang Saya</h2>
+            <p>Halo! Saya Baim, seorang Full-Stack Developer dengan passion mendalam untuk menciptakan aplikasi web yang tidak hanya menarik secara visual, tetapi juga kuat dan efisien di belakang layar. Sejak memulai perjalanan di dunia koding, saya selalu tertantang untuk memecahkan masalah kompleks dan mempelajari teknologi baru.</p>
+            <p>Keahlian saya meliputi ekosistem JavaScript (React, Node.js) hingga PHP (Laravel) dan Python. Saya percaya bahwa komunikasi yang baik adalah kunci dari proyek yang sukses. Oleh karena itu, saya selalu siap berdiskusi untuk memahami kebutuhan Anda dan memberikan solusi teknologi yang paling tepat sasaran.</p>
+
+            <a href="BaimCV.pdf" class="btn btn-outline-dark mt-3" download target="_blank">
+                <i class="bi bi-download"></i> Download CV Saya
+            </a>
+        </div>
+    </section>
+
+    <section class="projek" id="projek">
+        <div class="container">
+            <h2 class="display-5 fw-bold mb-3">Projek</h2>
+            <div class="row">
+                <div class="col-lg col-sm-6 mt-4">
+                    <div class="card">
+                        <img src="img/Secret Message.png" class="card-img-top" alt="Project Secret Message">
+                        <div class="card-body">
+                            <h5 class="card-title fw-bold">Secret Message</h5>
+                            <p class="card-text">Aplikasi web untuk mengirim pesan rahasia secara anonim.</p>
+                            <a href="#" class="btn btn-outline-dark">Lihat Detail</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg col-sm-6 mt-4">
+                    <div class="card">
+                        <img src="img/Bruteforcer.png" class="card-img-top" alt="Project Bruteforcer">
+                        <div class="card-body">
+                            <h5 class="card-title fw-bold">Bruteforcer App</h5>
+                            <p class="card-text">Alat untuk simulasi dan edukasi keamanan password.</p>
+                            <a href="#" class="btn btn-outline-dark">Lihat Detail</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg col-sm-6 mt-4">
+                    <div class="card">
+                        <img src="project.svg" class="card-img-top" alt="Project Example 3">
+                        <div class="card-body">
+                            <h5 class="card-title fw-bold">Projek Ketiga</h5>
+                            <p class="card-text">Deskripsi singkat mengenai proyek yang pernah dibuat.</p>
+                            <a href="#" class="btn btn-outline-dark">Lihat Detail</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg col-sm-6 mt-4">
+                    <div class="card">
+                        <img src="project.svg" class="card-img-top" alt="Project Example 4">
+                        <div class="card-body">
+                            <h5 class="card-title fw-bold">Projek Keempat</h5>
+                            <p class="card-text">Deskripsi singkat mengenai proyek yang pernah dibuat.</p>
+                            <a href="#" class="btn btn-outline-dark">Lihat Detail</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="testimoni" id="testimoni">
+        <div class="container">
+            <h2 class="display-5 fw-bold mb-3">Testimoni</h2>
+            <div id="carouselExampleAutoplaying" class="carousel slide carousel-dark carousel-fade"
+                data-bs-ride="carousel">
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <p>Kerja sama dengan Baim sangat memuaskan. Komunikasinya sangat lancar dan proaktif dalam memberikan update. Hasil akhir proyeknya pun melebihi ekspektasi kami. Sangat direkomendasikan!</p>
+                        <h5>Andi - CEO Startup Maju</h5>
+                    </div>
+                    <div class="carousel-item">
+                        <p>Website kami yang tadinya lambat dan penuh bug, kini berjalan sangat cepat dan stabil setelah di-revamp oleh Baim. Kemampuan teknisnya dalam menganalisis dan memperbaiki masalah benar-benar luar biasa.</p>
+                        <h5>Meong - Kucing Digital Agency</h5>
+                    </div>
+                    <div class="carousel-item">
+                        <p>Saya sangat suka dengan desain baru website saya. Baim tidak hanya membuat tampilannya modern, tapi juga sangat mudah digunakan oleh pengunjung. Proses dari ide hingga menjadi produk jadi terasa begitu mudah.</p>
+                        <h5>Juicy - Founder Fresh Juice Co.</h5>
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying"
+                    data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying"
+                    data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+        </div>
+    </section>
+
+    <section class="kirim-pesan py-5 bg-body-tertiary" id="kirim-pesan">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-lg-7">
+                    <h2 class="display-5 fw-bold mb-4 text-center">Kirim Pesan</h2>
+                    <form action="https://formspree.io/f/mnnzdjog" method="POST">
+                        <div class="mb-3">
+                            <label for="nama" class="form-label">Nama Lengkap</label>
+                            <input type="text" class="form-control" id="nama" name="nama"
+                                placeholder="Masukkan nama Anda">
+                        </div>
+                        <div class="mb-3">
+                            <label for="email" class="form-label">Alamat Email</label>
+                            <input type="email" class="form-control" id="email" name="email"
+                                placeholder="nama@contoh.com">
+                        </div>
+                        <div class="mb-3">
+                            <label for="pesan" class="form-label">Pesan</label>
+                            <textarea class="form-control" id="pesan" name="pesan" rows="4"
+                                placeholder="Tuliskan pesan Anda di sini..." maxlength="1000"></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-outline-dark">Kirim Pesan</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <section class="kontak" id="kontak">
+        <div class="container">
+            <h2 class="display-5 fw-bold mb-3">Kontak Saya</h2>
+            <div class="row">
+                <div class="col-sm-4 mt-4">
+                    <a href="mailto:playernibosp@gmail.com">playernibosp@gmail.com</a>
+                </div>
+                <div class="col-sm-4 mt-4">
+                    <div class="social-media">
+                        <a href="#"><i class="bi bi-instagram"></i></a>
+                        <a href="#"><i class="bi bi-whatsapp"></i></a>
+                        <a href="#"><i class="bi bi-github"></i></a>
+                    </div>
+                </div>
+                <div class="col-sm-4 mt-4">
+                    <a href="tel:+62882006821200">+62 882-0068-21200</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="text-center p-3 bg-body-tertiary">
+        <div>&copy; 2025. All Rights Reserved.</div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+</body>
+
+</html>
